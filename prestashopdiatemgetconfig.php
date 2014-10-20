@@ -8,7 +8,7 @@ class prestashopdiatemgetconfig extends Module {
     public function __construct() {
 	$this->name = 'prestashopdiatemgetconfig';
 	$this->tab = 'administration';
-	$this->version = '0.1.0';
+	$this->version = '0.1.1';
 	$this->author = 'Diatem';
 
 	$this->need_instance = 0;
