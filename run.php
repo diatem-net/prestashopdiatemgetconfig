@@ -13,7 +13,7 @@ class DiatemPrestashopGetConfig extends RestService{
 	    $this->response('', 405);
 	}
 	
-	$retStr = WpConfig::getJSon();
+	$retStr = PrestashopConfig::getJSon();
 	$this->response($retStr, 200);
     }
 }
